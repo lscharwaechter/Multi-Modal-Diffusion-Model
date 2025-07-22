@@ -5,10 +5,10 @@ from torchvision.datasets import ImageFolder
 from torchvision import transforms, utils
 import matplotlib.pyplot as plt
 from transformers import AutoTokenizer, AutoModel
-from models import UNet
+from model import UNet
 
 # Load Dataset and Transform
-data_dir = str('/craters')
+data_dir = str('craters')
 '''
 Needs to have the following folder structure:
     /craters
